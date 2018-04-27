@@ -9,6 +9,18 @@ fields:
   default: ''
   config:
     required: true
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: 'Issue # : '
+- type: number
+  name: slug
+  label: Issue Number
+  description: This turns into the page path (slug)
+  config:
+    step: '1'
+    required: true
 - name: description
   label: Description
   type: textarea
@@ -22,11 +34,6 @@ fields:
   description: Issue title without the issue number
   config:
     required: true
-- name: title
-  label: Title
-  type: text
-  hidden: false
-  default: 'Issue # : '
 - name: tags
   label: Tags
   type: tag_list
@@ -38,10 +45,3 @@ fields:
   hidden: false
   default: issues
 - type: number
-- type: number
-  name: slug
-  label: Slug
-  description: Issue number
-  config:
-    step: '1'
-    required: true
