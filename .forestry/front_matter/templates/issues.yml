@@ -14,6 +14,8 @@ fields:
   type: text
   hidden: false
   default: 'Issue # : '
+  config:
+    required: true
 - type: number
   name: slug
   label: Issue Number
@@ -26,6 +28,8 @@ fields:
   type: textarea
   hidden: false
   default: Desc
+  config:
+    required: false
 - name: shorttitle
   label: Shorttitle
   type: text
