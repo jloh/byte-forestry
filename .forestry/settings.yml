@@ -4,8 +4,26 @@ auto_deploy: false
 admin_path: "/admin"
 webhook_url: ''
 sections:
-  content/issues:
-    default_front_matter_template: issues
+- type: directory
+  path: content/issues
+  label: Issues
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/subscribe
+  label: Subscribe
+  create: all
+  match: "**/*"
+- type: directory
+  path: content
+  label: Pages
+  create: all
+  match: "*"
+- type: directory
+  path: data
+  label: Data
+  create: none
+  match: "**/*.{json,yaml,yml,toml}"
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: "/uploads"

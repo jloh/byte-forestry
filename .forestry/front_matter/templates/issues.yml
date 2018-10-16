@@ -1,4 +1,5 @@
 ---
+label: issues
 hide_body: false
 is_partial: false
 fields:
@@ -48,3 +49,22 @@ fields:
   type: text
   hidden: false
   default: issues
+pages:
+- content/issues/2017-06-04-issue-8.md
+- content/issues/2017-05-28-issue-7.md
+- content/issues/2017-05-21-issue-6.md
+- content/issues/2017-05-14-issue-5.md
+- content/issues/2017-05-07-issue-4.md
+- content/issues/2017-04-16-issue-1.md
+- content/issues/2017-07-16-issue-14.md
+- content/issues/2017-07-23-issue-15.md
+- content/issues/2018-05-13-issue-18.md
+- content/issues/2018-05-06-issue-17.md
+- content/issues/2017-04-22-issue-2.md
+- content/issues/2017-07-02-issue-12.md
+- content/issues/2017-06-11-issue-9.md
+- content/issues/2017-07-09-issue-13.md
+- content/issues/2017-06-18-issue-10.md
+- content/issues/2017-04-30-issue-3.md
+- content/issues/2017-06-25-issue-11.md
+- content/issues/2018-04-29-issue-16.md
